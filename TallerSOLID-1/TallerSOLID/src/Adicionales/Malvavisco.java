@@ -5,6 +5,7 @@ public class Malvavisco extends Aderezo{
         setNombre();
     }
 
+    //modificando
     @Override
     public void setNombre() {
         nombre = "MALVAVISCOS";
