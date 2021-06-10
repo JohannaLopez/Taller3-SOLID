@@ -11,7 +11,7 @@ package Adicionales;
  */
 public abstract class Aderezo {
     public String nombre;
-    //CHOCOLATE,FRUTILLA,CREMA
+    //MALVAVISCOS,FRUTILLA,CREMA
 
     public abstract void setNombre();
     
