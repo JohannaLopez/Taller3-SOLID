@@ -1,5 +1,7 @@
 package Procesos;
 
+import Postres.Postre;
+
 public class ManejadorDePrecios {
 	 public static double calcularPrecioFinal(Postre p){
 	        double precioFinal;

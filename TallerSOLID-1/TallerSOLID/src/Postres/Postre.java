@@ -26,23 +26,5 @@ public abstract class Postre {
         this.aderezos.remove(aderezo);
     }
     
-    // Precios de Helado y pastel
-
-    public double getPrecioParcial() {
-        return precioParcial;
-    }
     
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
-        return precioFinal;
-    }
-
-    @Override
-    public String toString() {
-        return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
-    }
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
 }
