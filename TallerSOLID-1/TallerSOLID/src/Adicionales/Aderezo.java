@@ -11,10 +11,7 @@ package Adicionales;
  */
 public abstract class Aderezo {
     public String nombre;
-    //CHOCOLATE,FRUTILLA,CREMA
-
-    public abstract void setNombre();
-    
+    public abstract void setNombre();    
     public String toString() {
         return nombre.toUpperCase();
     }
